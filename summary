@@ -1,0 +1,13 @@
+In javaScript, the this keyword refers to an object, it's not any variable. We can not change the value of it. Which object depends on how this is being invoked(used or called).
+
+The this keyword refers to different onjects depending on how it is used:
+
+> In on object method, this refers to the object. -----amnite object
+
+> Alone, this refers to the global object.----windraw
+
+> In a fuction, this refers to the global object.-----windraw but ---new dile samne pb ace
+
+> In an event, this refers to the element that received the event.----just oita bujay
+
+> Methods like call(), apply(), and bind() can refer this to any object.

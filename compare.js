@@ -62,4 +62,7 @@ function compareObject(first, second){
     }
 }
 const isSame = compareObject(first,second)
-console.log(isSame)                                         // true
+// console.log(isSame)                                         // true
+
+
+
